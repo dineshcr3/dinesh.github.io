@@ -1,5 +1,24 @@
 .heading{
     color:darkcyan;
+    border: 1px solid;
+    border-radius: 10px;
+    border-width: medium;
+    inline-size: 89px;
+}
+
+#head{
+    border-width: medium;
+    inline-size: 145px;
+}
+
+#head1{
+    border-width: medium;
+    inline-size: 134px;
+}
+
+.heading:hover {
+    background-color: darkcyan;
+    color: #ffffff;
 }
 
 body{
@@ -15,4 +34,27 @@ body{
 header{
     font-family: sans-serif;
     margin: 0%;
+}
+
+.subhead{
+    border: 1px ridge;
+    border-radius: 5px;
+    color: darkslategray;
+}
+
+.subhead:hover{
+    border-width: medium;
+    background-color: gray;
+    color: #ffffff;
+}
+
+#para1,#para3,#para4,#para5 {
+    font-family: sans-serif;
+    line-height: 20px;
+}
+
+body {
+    border: 1px solid gray;
+    box-shadow: 25px;
+    border-radius: 10px;
 }
