@@ -1,0 +1,18 @@
+.heading{
+    color:darkcyan;
+}
+
+body{
+    padding:1em;
+    margin: 10px;
+}
+
+#para1,#para2,#para3,#para4,#para5,.para{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+header{
+    font-family: sans-serif;
+    margin: 0%;
+}
